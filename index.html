@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pallavi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+<div class="hero">
+    <img src="/home/user/Downloads/profile.jpeg" alt="Profile Photo" class="profile">
+    <h1>Hello, I'm Pallavi 👋</h1>
+    <p>Aspiring Web Developer</p>
+    <button onclick="showMessage()">Hire Me</button>
+    <br><br>
+    <a href="#projects">
+    <button>View My Projects</button>
+    </a>
+</div>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am learning web development with HTML, CSS, and JavaScript.</p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <p>HTML</p>
+    <progress value="90" max="100"></progress>
+
+    <p>CSS</p>
+    <progress value="80" max="100"></progress>
+
+    <p>JavaScript</p>
+    <progress value="70" max="100"></progress>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>I created this portfolio using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project">
+        <h3>Responsive Web Page</h3>
+        <p>This website works on both mobile phones and computers.</p>
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name"><br><br>
+
+        <input type="email" placeholder="Your Email Address"><br><br>
+
+        <textarea placeholder="Write Your Message Here...." rows="5" cols="30"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+<button onclick="showMessage()">Click Me</button>
+
+<script src="script.js"></script>
+<footer>
+    <p>© 2026 Pallavi. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
