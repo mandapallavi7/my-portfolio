@@ -1,3 +1,4 @@
+HEAD
 const BASE_URL = "https://user-authentication-api-production.up.railway.app";
 
 async function register() {
@@ -34,3 +35,7 @@ async function login() {
   document.getElementById("message").innerText =
     data.message || JSON.stringify(data);
 }
+=======
+function showMessage() {
+    alert("Thank you for visiting my portfolio!");
+} 6e99898f10f373a6fdf6211e7382d1f56216513f
